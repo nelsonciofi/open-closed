@@ -24,6 +24,7 @@ internal readonly struct BankType : IEquatable<BankType>
                bank == other.bank;
     }
 
+    
     public override int GetHashCode() 
         => HashCode.Combine(type, bank);
 
@@ -34,4 +35,7 @@ internal readonly struct BankType : IEquatable<BankType>
     public static bool operator !=(BankType left,
                                    BankType right) 
         => !(left == right);
+
+    public override string ToString()
+        => $"{bank} and {type}.";
 }

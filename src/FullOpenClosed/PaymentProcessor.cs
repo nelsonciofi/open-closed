@@ -1,4 +1,5 @@
-﻿using Shared;
+﻿using FullOpenClosed.Abstractions;
+using Shared;
 
 namespace FullOpenClosed;
 

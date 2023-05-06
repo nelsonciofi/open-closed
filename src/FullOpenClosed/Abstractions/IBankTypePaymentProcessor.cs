@@ -1,6 +1,6 @@
 ﻿using Shared;
 
-namespace FullOpenClosed;
+namespace FullOpenClosed.Abstractions;
 
 internal interface IBankTypePaymentProcessor
 {
